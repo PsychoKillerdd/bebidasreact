@@ -7,7 +7,7 @@ export type RecipesSliceType = {
     categories:Category[],
     fetchCategories: () => Promise<void>
 }
-
+//fetch
 
 export const createRecipesSlice:StateCreator<RecipesSliceType> = () => ({
     categories:[],
